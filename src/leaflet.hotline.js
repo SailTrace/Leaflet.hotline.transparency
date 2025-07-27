@@ -215,10 +215,10 @@
 
 			if (this._outlineWidth) {
 				ctx.save();
-				const lws = [this._weight, this._weight + 2 * this._outlineWidth];
-				const gcos = ['source-over', 'source-out'];
-				const clrs = ['white', this._outlineColor];
-				for (let w = 0; w < 2; w++) {
+				var lws = [this._weight, this._weight + 2 * this._outlineWidth];
+				var gcos = ['source-over', 'source-out'];
+				var clrs = ['white', this._outlineColor];
+				for (var w = 0; w < 2; w++) {
 					ctx.strokeStyle = clrs[w];
 					ctx.lineWidth = lws[w];
 					ctx.globalCompositeOperation = gcos[w];

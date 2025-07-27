@@ -1,5 +1,5 @@
 {
-  "name": "leaflet-hotline",
+  "name": "leaflet-hotline-transparency",
   "version": "0.4.0",
   "description": "A Leaflet plugin for drawing colored gradients along a polyline",
   "main": "src/leaflet.hotline.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/iosphere/Leaflet.hotline.git"
+    "url": "git://github.com/sailtrace/Leaflet.hotline.transparency.git"
   },
   "keywords": [
     "Leaflet",
@@ -27,12 +27,12 @@
     "color",
     "colour"
   ],
-  "author": "Jonas Coch",
+  "author": "Nikolas Molinari",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/iosphere/Leaflet.hotline/issues"
+    "url": "https://github.com/sailtrace/Leaflet.hotline.transparency/issues"
   },
-  "homepage": "https://iosphere.github.io/Leaflet.hotline/demo/",
+  "homepage": "https://sailtrace.github.io/Leaflet.hotline.transparency/demo/",
   "devDependencies": {
     "eslint": "^0.23.0",
     "uglify-js": "^2.4.23"
