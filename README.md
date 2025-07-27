@@ -50,6 +50,37 @@ var hotlineLayer = L.hotline(data, options).addTo(map);
 </script>
 ```
 
+### TypeScript
+
+```typescript
+import * as L from 'leaflet';
+import 'leaflet-hotline-transparency';
+
+// Define hotline data with altitude values
+const hotlineData: L.HotlineLatLng[] = [
+  L.latLng(51.5, -0.1, 100), // lat, lng, altitude
+  L.latLng(51.51, -0.1, 150),
+  L.latLng(51.52, -0.11, 200)
+];
+
+// Create hotline with TypeScript options
+const hotlineOptions: L.HotlineOptions = {
+  min: 100,
+  max: 200,
+  palette: {
+    0.0: 'blue',
+    0.5: 'yellow', 
+    1.0: 'red'
+  },
+  weight: 5,
+  outlineColor: 'black',
+  outlineWidth: 1
+};
+
+// Create and add hotline to map
+const hotlineLayer = L.hotline(hotlineData, hotlineOptions).addTo(map);
+```
+
 
 ## Documentation
 
